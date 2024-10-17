@@ -1,0 +1,16 @@
+{
+  "IndexPage": {
+    "title": "مرحبا",
+    "description": "السلام عليكم في موقع متعدد اللغات المتنقلة العربية"
+  },
+  "NotFoundPage": {
+    "title": "الصفحة غير موجودة",
+    "description": "معذرة الصفحة غير موجودة "
+  },
+  "Navigation": {
+    "home": "الرئيسية"
+  },
+  "Footer": {
+    "copyright": "© 2024 Your App. جميع الحقوق محفوظة."
+  }
+}
