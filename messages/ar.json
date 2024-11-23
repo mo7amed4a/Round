@@ -1,16 +1,87 @@
 {
-  "IndexPage": {
-    "title": "مرحبا",
-    "description": "السلام عليكم في موقع متعدد اللغات المتنقلة العربية"
+  "navbar": {
+    "links": {
+      "home": "الرئيسية",
+      "services": "خدماتنا",
+      "about_co": "عن الشركة",
+      "tourism": "الوجهات السياحية",
+      "blog": "المدونة",
+      "album": "الألبوم الصور",
+      "register": "التسجيل"
+    }
   },
-  "NotFoundPage": {
-    "title": "الصفحة غير موجودة",
-    "description": "معذرة الصفحة غير موجودة "
+  "hero": {
+    "title": "اجعل رحلتك اكثر تحدياً",
+    "description": "استكشف العديد من الرحلات و التحديات الرائعة",
+    "button": "احجز الان"
   },
-  "Navigation": {
-    "home": "الرئيسية"
+  "travelFilter": {
+    "tripType": "نوع الرحلة",
+    "chooseTripType": "اختر نوع الرحلة",
+    "destinations": "الوجهات",
+    "chooseDestination": "اختر الوجهة",
+    "price": "السعر",
+    "specifyPrice": "حدد السعر",
+    "search": "ابحث"
   },
-  "Footer": {
-    "copyright": "© 2024 Your App. جميع الحقوق محفوظة."
+  "destinations": {
+    "exploreDestinations": "استكشف الوجهات",
+    "enjoyExploringTrips": "استمتع باستكشاف الرحلات المتاحة معنا"
+  },
+  "services": {
+    "services": "الخدمات",
+    "servicesDescription": "توفر شركة Round in Oman العديد من الخدمات المتنوعة و المميزة استكشفها واستمتع معنا",
+    "travelServicesTitle": "خدمات الرحلات",
+    "travelServicesDescription": "فرصة رائعة لاكتشاف أماكن جديدة وتجربة مغامرات مميزة",
+    "transportServicesTitle": "خدمات التنقل",
+    "transportServicesDescription": "يمكنك حجز تاكسي أو تأجير سيارة حسب طلبك لإكمال راحتك معنا",
+    "entertainmentServicesTitle": "الخدمات الترفيهية",
+    "entertainmentServicesDescription": "وسيلة رائعة لإضافة المتعة والتنوع إلى رحلتك. اختيار الأنشطة الترفيهية التي تناسب اهتماماتهم",
+    "hotelBookingTitle": "خدمة حجز الفنادق",
+    "hotelBookingDescription": "خدمة حجز الفندق هي طريقة مريحة وسهلة لضمان مكان إقامة مناسب اثناء الرحلات"
+  },
+  "travel": {
+    "explore": "استكشف",
+    "tourTrips": "الرحلات السياحية",
+    "tourTripsDescription": "استمتع بأستكشاف رحلتك السياحية المميزة",
+    "tripEconomy": "الرحلة الاقتصادية",
+    "tripEconomyRating": "4.5",
+    "tripFamily": "الرحلة العائلية",
+    "tripFamilyRating": "3",
+    "more": "المزيد",
+    "price": "24.رع"
+  },
+  "footer": {
+    "pages": "الصفحات",
+    "contactLinks": "بيانات التواصل",
+    "links": {
+      "home": "الرئيسية",
+      "services": "خدماتنا",
+      "about_co": "عن الشركة",
+      "tourism": "الوجهات السياحية",
+      "blog": "المدونة",
+      "album": "الألبوم الصور",
+      "privacyTerms": "الخصوصية والشروط",
+      "privacyPolicies": "سياسات الخصوصية",
+      "intellectualProperty": "الملكية الفكرية",
+      "contactUs": "تواصل معنا"
+    },
+    "description": "موقع Round هو منصة الكترونية تهدف إلى تقديم مجموعة متنوعة من الخيارات للسياح والمقيمين لاستكشاف الجمال والتاريخ",
+    "address": "مصر - القاهرة",
+    "copyright": "جميع الحقوق محفوظة Round"
+  },
+  "signup": {
+    "hero": {
+    "title":"أهلا وسهلا في",
+    "description": "بوبتك ألي مغامرتك لا تنسى وكنوز مخفية حول سلطنة عمان"
+    },
+    "title": "إنشاء حساب",
+    "description": "يجب إدخال البيانات لإنشاء حساب جديد",
+    "fullName": "الاسم كاملاً",
+    "email": "البريد الإلكتروني",
+    "whatsapp": "رقم الواتساب",
+    "password": "كلمة المرور",
+    "submit": "إنشاء الحساب",
+    "login": "أمتلك حساب بالفعل؟ تسجيل الدخول"
   }
 }

@@ -1,16 +1,87 @@
 {
-  "IndexPage": {
-    "title": "example",
-    "description": "Welcome to the Next.js Internationalization"
+  "navbar": {
+    "links": {
+      "home": "Home",
+      "services": "Our services",
+      "about_co": "About the company",
+      "tourism": "Tourist destinations",
+      "blog": "Blog",
+      "album": "Photo album",
+      "register": "Registration"
+    }
   },
-  "NotFoundPage": {
-    "title": "Page Not Found",
-    "description": "Oops! It seems like you've stumbled upon a page that doesn't exist. Don't worry, our internationalization magic is still hard at work on other parts of the app. Feel free to navigate back to explore more!"
+  "hero": {
+    "title": "Make your trip more challenging",
+    "description": "Explore many wonderful journeys and challenges",
+    "button": "Book now"
   },
-  "Navigation": {
-    "home": "Home"
+  "travelFilter": {
+    "tripType": "Trip type",
+    "chooseTripType": "Choose the trip type",
+    "destinations": "Destinations",
+    "chooseDestination": "Choose destination",
+    "price": "the price",
+    "specifyPrice": "Set the price",
+    "search": "Search"
   },
-  "Footer": {
-    "copyright": "© 2024 Your App. All rights reserved."
+  "destinations": {
+    "exploreDestinations": "Explore destinations",
+    "enjoyExploringTrips": "Enjoy exploring the trips available with us"
+  },
+  "services": {
+    "services": "Services",
+    "servicesDescription": "Round in Oman provides many diverse and distinctive services, explore them and enjoy with us",
+    "travelServicesTitle": "Trip services",
+    "travelServicesDescription": "A wonderful opportunity to discover new places and experience unique adventures",
+    "transportServicesTitle": "Mobility services",
+    "transportServicesDescription": "You can book a taxi or rent a car as per your request to complete your comfort with us",
+    "entertainmentServicesTitle": "Entertainment services",
+    "entertainmentServicesDescription": "A great way to add fun and variety to your trip. ",
+    "hotelBookingTitle": "Hotel reservation service",
+    "hotelBookingDescription": "The hotel reservation service is a convenient and easy way to guarantee suitable accommodation during trips"
+  },
+  "travel": {
+    "explore": "explore",
+    "tourTrips": "Tourist trips",
+    "tourTripsDescription": "Enjoy exploring your unique tourist trip",
+    "tripEconomy": "Economy flight",
+    "tripEconomyRating": "4.5",
+    "tripFamily": "Family trip",
+    "tripFamilyRating": "3",
+    "more": "More",
+    "price": "24.Ra"
+  },
+  "footer": {
+    "pages": "Pages",
+    "contactLinks": "Contact information",
+    "links": {
+      "home": "Home",
+      "services": "Our services",
+      "about_co": "About the company",
+      "tourism": "Tourist destinations",
+      "blog": "Blog",
+      "album": "Photo album",
+      "privacyTerms": "Privacy and Terms",
+      "privacyPolicies": "Privacy policies",
+      "intellectualProperty": "intellectual property",
+      "contactUs": "Contact us"
+    },
+    "description": "Round is an online platform that aims to offer a variety of options for tourists and residents to explore beauty and history",
+    "address": "Egypt - Cairo",
+    "copyright": "All rights reserved Round"
+  },
+  "signup": {
+    "hero": {
+      "title": "Welcome to",
+      "description": "Your gateway to your unforgettable adventure and hidden treasures around the Sultanate of Oman"
+    },
+    "title": "Create an account",
+    "description": "You must enter data to create a new account",
+    "fullName": "Full name",
+    "email": "e-mail",
+    "whatsapp": "WhatsApp number",
+    "password": "password",
+    "submit": "Create account",
+    "login": "Already have an account? "
   }
 }

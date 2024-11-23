@@ -1,12 +1,16 @@
-import { useTranslations } from 'next-intl';
+import { Destinations } from '@/components/Home/destinations';
+import { Hero } from '@/components/Home/Hero';
+import Services from '@/components/Home/services';
+import { Travel } from '@/components/Home/travel';
 
 export default function Home() {
-  const t = useTranslations('IndexPage');
-
   return (
-    <div>
-      <h1 className='text-4xl mb-4 font-semibold'>{t('title')}</h1>
-      <p>{t('description')}</p>
-    </div>
-  );
+    <main className="min-h-screen">
+      <Hero />
+      {/* <CarouselDApiDemo /> */}
+      <Destinations />
+      <Services />
+      <Travel />
+    </main>
+  )
 }
