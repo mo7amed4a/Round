@@ -9,7 +9,7 @@ export function Destinations() {
   const t = useTranslations('destinations')
   const lang  = useLocale()
   return (
-    <section className="py-20 mt-10 md:mt-20 relative ">
+    <section className="py-20 mt-80 md:mt-20 relative">
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">{t('exploreDestinations')}</h2>
@@ -17,7 +17,7 @@ export function Destinations() {
         </div>
         <CustomCarousel>
             {destinations(lang).map((destination, index) => (
-            <CarouselItem key={index} className="basis-1/2 lg:basis-1/5">
+            <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/5">
               <Card className="overflow-hidden border-none shadow-none w-full">
                 <CardContent className="p-0">
                   <div className="relative w-full h-64 bg-[#189CCE]/10 p-2 rounded-3xl">

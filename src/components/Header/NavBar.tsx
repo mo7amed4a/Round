@@ -52,7 +52,7 @@ export function Navbar() {
               width={100}
               src="/icons/logo.png"
               alt="Logo"
-              className="size-20"
+              className="size-12 md:size-20"
             />
           </LinkApp>
           <div className="hidden md:flex items-center gap-8">

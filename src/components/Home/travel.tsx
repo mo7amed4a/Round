@@ -19,31 +19,31 @@ export function Travel() {
         </div>
         <div className="w-full flex">
           <CustomCarouselForTravel>
-            <CarouselItem className="basis-1/2 lg:basis-1/5 h-72">
+            <CarouselItem className="md:basis-1/2 lg:basis-1/5 h-96 md:h-72">
               <ImageCard
                 alt={t('tripEconomy')}
                 src="/s-2/5.png"
                 title={t('tripEconomy')}
               />
             </CarouselItem>
-            <CarouselItem className="basis-1/2 lg:basis-1/3 h-72">
+            <CarouselItem className="md:basis-1/2 lg:basis-1/3 h-96 md:h-72">
                <ImageCardLarge title={t('tripFamily')} image="/s-2/3.png" price={t('price')} btnText={t('more')} />
             </CarouselItem>
-            <CarouselItem className="basis-1/2 lg:basis-1/5 h-72">
+            <CarouselItem className="md:basis-1/2 lg:basis-1/5 h-96 md:h-72">
               <ImageCard
                 alt={t('tripEconomy')}
                 src="/s-2/5.png"
                 title={t('tripEconomy')}
               />
             </CarouselItem>
-            <CarouselItem className="basis-1/2 lg:basis-1/5 h-72">
+            <CarouselItem className="md:basis-1/2 lg:basis-1/5 h-96 md:h-72">
               <ImageCard
                 alt={t('tripEconomy')}
                 src="/s-2/5.png"
                 title={t('tripEconomy')}
               />
             </CarouselItem>
-            <CarouselItem className="basis-1/2 lg:basis-1/5 h-72">
+            <CarouselItem className="md:basis-1/2 lg:basis-1/5 h-96 md:h-72">
               <ImageCard
                 alt={t('tripEconomy')}
                 src="/s-2/5.png"

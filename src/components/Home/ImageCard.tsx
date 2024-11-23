@@ -10,11 +10,13 @@ interface ImageCardProps {
 export function ImageCard({ src, alt, title }: ImageCardProps) {
   return (
     <Card className="group relative overflow-hidden rounded-[2rem] bg-white">
-      <div className="relative aspect-[3/4] w-full">
+      <div className="relative h-full md:aspect-[3/4] w-full">
         <Image
           src={src}
           alt={alt}
-          fill
+          width={1000}
+          height={1000}
+          // fill
           className="object-cover transition-transform duration-300 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-black/10" />

@@ -15,9 +15,9 @@ export default function TravelFilterCard() {
   const t = useTranslations("travelFilter");
   const lang = useLocale();
   return (
-    <Card className="text-gray-600 max-w-4xl mx-auto absolute -bottom-16 inset-x-5 md:left-[50%] md:translate-x-[-50%] border-primary">
+    <Card className="text-gray-600 max-w-4xl mx-auto absolute -bottom-80 md:-bottom-16 inset-x-5 md:left-[50%] md:translate-x-[-50%] border-primary">
       <CardContent className="p-6">
-        <div className="grid grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
           <div>
             <label className="block text-sm mb-2">{t("tripType")}</label>
             <Select>
