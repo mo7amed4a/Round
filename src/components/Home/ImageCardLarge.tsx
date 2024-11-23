@@ -21,7 +21,7 @@ btnText
 }: PropsType) {
   return (
     <div className="relative w-full h-96 md:h-72 rounded-3xl overflow-hidden">
-      <Image src={image} alt={"d"} width={1000} height={1000} className="object-cover" />
+      <Image src={image} alt={"d"} fill className="object-cover" />
       <Badge className="bg-white text-gray-500 flex gap-x-1 absolute end-4 top-4">
         <FaStar className="text-yellow-500" />
         <span>4.5</span>
