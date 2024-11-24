@@ -22,7 +22,7 @@ export function ImageCard({ src, alt, title }: ImageCardProps) {
           alt={alt}
           width={1000}
           height={1000}
-          className="object-cover h-full md:hidden transition-transform duration-300 group-hover:scale-105"
+          className="object-cover h-fullher md:hidden transition-transform duration-300 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-black/10" />
         <div 
