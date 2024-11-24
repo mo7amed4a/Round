@@ -7,7 +7,7 @@ export default function Services() {
   const t = useTranslations("services");
   return (
     <section className="py-20 bg-gray-50 relative">
-      <div className="container mx-auto px-4 grid lg:grid-cols-2 gap-20  relative z-10">
+      <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-20  relative z-10">
         <div className="flex justify-end items-center">
           <Image src="/s-3/right.png" alt="Image" width={500} height={500} />
         </div>

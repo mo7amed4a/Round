@@ -11,7 +11,7 @@ export default function Footer() {
   const t = useTranslations("footer");
   return (
     <footer className="bg-[#2D5F8A] text-white relative overflow-hidden">
-      <div className="container mx-auto px-4 py-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 py-8 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
 
           <div className="md:col-span-4 flex flex-col space-y-4 items-start">

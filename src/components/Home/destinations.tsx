@@ -10,7 +10,7 @@ export function Destinations() {
   const lang  = useLocale()
   return (
     <section className="py-20 mt-80 md:mt-20 relative">
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">{t('exploreDestinations')}</h2>
           <p className="text-gray-600">{t("enjoyExploringTrips")}</p>

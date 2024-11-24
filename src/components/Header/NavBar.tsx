@@ -40,7 +40,7 @@ export function Navbar() {
           : pathname.endsWith("register") ? "bg-white text-gray-700" : "bg-primary/90 backdrop-blur-sm text-black"
       }`}
     >
-      <div className="container mx-auto px-4 divide-y divide-gray-400">
+      <div className="max-w-7xl mx-auto px-4 divide-y divide-gray-400">
         <div className="flex justify-between py-2">
           <SocialLinks isScrolled={isScrolled} />
           <LocalSwitcher isScrolled={isScrolled} />

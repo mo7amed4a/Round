@@ -21,7 +21,7 @@ export default function SignUpForm() {
   const t = useTranslations("signup"); 
 
   return (
-    <div className="container text-start mx-auto w-full flex flex-col lg:flex-row items-center px-5 mt-44 py-20">
+    <div className="max-w-7xl text-start mx-auto w-full flex flex-col lg:flex-row items-center px-5 mt-44 py-20">
       <div className="size-full flex justify-center items-center">
         <div className="w-full lg:w-4/5 h-[80vh] overflow-hidden relative">
           <div className="relative size-full flex items-center rounded- justify-start ps-8 z-10">

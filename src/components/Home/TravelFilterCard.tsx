@@ -22,7 +22,7 @@ export default function TravelFilterCard() {
             <label className="block text-sm mb-2">{t("tripType")}</label>
             <Select>
               <SelectTrigger
-                className="w-full rtl:flex-row-reverse"
+                className="w-full rtl:flex-row-reverse ltr:text-xs"
                 styleIcon="text-primary size-6 border-2 border-primary rounded-full"
               >
                 <SelectValue placeholder={t("chooseTripType")} />
@@ -42,7 +42,7 @@ export default function TravelFilterCard() {
             <label className="block text-sm mb-2">{t("destinations")}</label>
             <Select>
               <SelectTrigger
-                className="w-full rtl:flex-row-reverse"
+                className="w-full rtl:flex-row-reverse ltr:text-xs"
                 styleIcon="text-primary size-6 border-2 border-primary rounded-full"
               >
                 <SelectValue placeholder={t("chooseDestination")} />
@@ -62,7 +62,7 @@ export default function TravelFilterCard() {
             <label className="block text-sm mb-2">{t("price")}</label>
             <Select>
               <SelectTrigger
-                className="w-full rtl:flex-row-reverse"
+                className="w-full rtl:flex-row-reverse ltr:text-xs"
                 styleIcon="text-primary size-6 border-2 border-primary rounded-full"
               >
                 <SelectValue placeholder={t("specifyPrice")} />

@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl"
 export function Hero() {
   const t = useTranslations('hero')
   return (
-    <div className="relative h-[80vh] flex items-center justify-center pt-44 md:pt-0 mt">
+    <div className="relative h-[95vh]  flex items-center justify-center pt-44 md:pt-0 mt">
       <div 
         className="absolute inset-0 bg-cover bg-center z-0" 
         style={{
@@ -16,7 +16,7 @@ export function Hero() {
         }}
       />
       <div className="absolute inset-0 bg-black/40 z-10" />
-      <div className="z-20 container mx-auto px-4">
+      <div className="z-20 container mx-auto px-4 md:ps-40">
         <div className="text-start text-white mb-16">
           <h1 className="text-5xl font-bold mb-4">{t('title')}</h1>
           <p className="text-xl mb-8">{t('description')}</p>
